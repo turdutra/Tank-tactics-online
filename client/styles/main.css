@@ -1,0 +1,50 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.pote{
+  display: flex;
+  position: absolute;
+}
+
+
+.grid{
+  width: 1200px;
+  height: 1200px;
+
+}
+
+
+.grid div {
+  width: 60px;
+  height: 60px;
+  outline: 1px solid;
+  float: left;
+}
+.butons{
+  width: 200px;
+  height: 240px;
+}
+
+
+.butons div {
+  width: 200px;
+  height: 60px;
+  outline: 1px solid;
+  float: left;
+}
+
+.score {
+  width: 200px;
+  height: 240px;
+  outline: 1px solid;
+}
+
+#score {
+  white-space: pre-line;
+}
+.player{
+  background-image: url('circle.png');
+}
